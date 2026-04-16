@@ -191,7 +191,7 @@ def save_to_json(new_invoices: List[Dict]) -> None:
 # ---------------------------------------------------------------------------
 
 def load_folder_config() -> str:
-    default = "D:/CS/Python/ProviderHub/Invoice"
+    default = ""
     try:
         if os.path.exists(config_file_path):
             with open(config_file_path, "r", encoding="utf-8") as f:
