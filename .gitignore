@@ -1,0 +1,8 @@
+# Data and Config
+invoice_data.json
+folder_config.json
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
